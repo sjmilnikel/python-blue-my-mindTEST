@@ -16,5 +16,3 @@ sorted_words = sorted(words)
 print("Alphabetic First Word:", sorted_words[0])
 print("Alphbetic Last Word", sorted_words[-1])
 
-
-
