@@ -10,4 +10,3 @@ for instances in data:
     for ids in instance:
         instance_id=ids["InstanceId"]
         li.append(instance_id)
-ec2_client.terminate_instances(InstanceIds=li)
